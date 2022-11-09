@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  background-color: #eef4f7;
+  min-height: 100vh;
+  background-size: cover;
+  padding: 30px;
+  text-align: center;
+}
+
+.travel-guide-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  color: #334155;
+  border-bottom: 2px solid #52bbf0;
+  display: inline;
+}
+
+.travel-places-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.loader-container {
+  margin-top: 50px;
+}
+
+.travel-places-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.place-list-item {
+  width: 40%;
+  background-color: #ffffff;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 5px;
+}
+.place-image {
+  width: 300px;
+  margin: 10px;
+}
+
+.place-name {
+  font-family: 'Roboto';
+
+  color: #475569;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+.place-description {
+  font-family: 'Roboto';
+  color: #64748b;
+  font-size: 15px;
+  padding-left: 10px;
+}
